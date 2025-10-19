@@ -46,5 +46,20 @@ A implementação neste notebook mostra manualmente essas etapas para fins didá
 - Incorporar métricas de avaliação (como inércia, silhueta) para medir a qualidade do agrupamento.
 - Tornar o algoritmo mais modular, aceitável para quaisquer k e qualquer dataset, com validação de entrada.
 
+## 📊 Resultados
+
+Após executar o algoritmo K-Means implementado neste notebook, obtemos a seguinte visualização dos clusters e centróides:
+
+![Clusters e Centroides](2b83bc83-0893-46ab-9aa9-891c35cd118a.png)
+
+- Cada ponto colorido representa um elemento do dataset atribuído a um cluster específico:
+  - **Azul** → Cluster 1
+  - **Verde** → Cluster 2
+  - **Vermelho** → Cluster 3
+- Cada estrela escura representa o **centróide** correspondente de cada cluster.
+- É possível observar que os pontos foram agrupados corretamente em torno de seus centróides, demonstrando a eficácia do algoritmo.
+
+
+
 ## 📝 Licença
 Este projeto está aberto para uso educacional e experimental. Sinta‑se à vontade para copiar, modificar e aprender com o conteúdo. Caso reutilize ou publique, agradece‑se manter a atribuição ao autor original.
